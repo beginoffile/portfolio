@@ -11,7 +11,7 @@
     --color-subtitle:#888888;
     --color-text:#555;
 
-
+    --color-scrollbar:#D3D3D4;
 
 }
 
@@ -202,7 +202,7 @@ body{
     border-radius: 0 10rem 10rem 0;
 }
 
-.content__page{
+.content__page{    
     min-height: 100%;
     background-color: var(--color-principal);
     border-radius: 3.2rem;
@@ -291,3 +291,18 @@ body{
     opacity: 1;
     right: 100%;
 }
+
+/** ABOUT ME **/
+
+.content__about{
+    height: 100%;
+    display: block;
+    min-height: 100%;
+    padding: 6rem 3rem 6rem 6rem;
+    overflow: auto;
+}
+
+.layout__aside{
+    overflow: auto;
+}
+
