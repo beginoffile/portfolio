@@ -369,13 +369,15 @@ body{
 /*ESTILOS COMPARTIDOS ABOUT*/
 
 .about__services,
-.about__reviews{
+.about__reviews,
+.about__clients{
     width: 100%;
     margin-bottom: 3rem;
 }
 
 .services__header,
-.reviews__header{
+.reviews__header,
+.clients__header{
     display: inline-block;
     padding-right: 1.2rem;
     position: relative;
@@ -385,13 +387,15 @@ body{
 
 
 .services__title,
-.reviews__title{
+.reviews__title,
+.clients__title{
     font-size: 2.1rem;
     
 }
 
 .services__title::after,
-.reviews__title::after{
+.reviews__title::after,
+.clients__title::after{
     content:"";
     position: absolute;
     top: 15px;
@@ -497,4 +501,11 @@ body{
     font-size: 3rem;
     opacity: 0.5;
     color:var(--color-secondary);
+}
+
+/* CLIENTES*/
+
+.about__clients{
+    width: 100%;
+    margin-bottom: 5rem;
 }
