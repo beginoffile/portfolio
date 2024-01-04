@@ -898,3 +898,21 @@ body{
 .certificate__content{
     padding: 2rem 2.5rem;
 }
+
+.certificate__title{
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;        
+}
+
+.certificate__id{
+    display: block;
+    margin-bottom: 0.3rem;
+    font-size: 1.3rem;
+    color:var(--color-subtitles);
+}
+
+.certificate__date{
+    font-size: 1.2rem;
+    color: var(--color-subtitles);
+    opacity: 0.9;
+}
