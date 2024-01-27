@@ -1252,4 +1252,29 @@ body{
 
 .form__button{
     padding: 1rem 3rem;
+    font-size: 1.5rem;
+    border: 0.2rem solid var(--color-secondary);
+    color: var(--color-title);
+    background-color: var(var(--color-principal));
+    border-radius: 3rem;
+    box-shadow: 0 1rem 1rem -8px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.form__button:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-principal);
+}
+
+.contact__map{
+    width: 100%;
+    min-height: 15rem;
+    margin-bottom: 3.5rem;
+    overflow: hidden;
+}
+
+.contact__iframe{
+    width: 100%;
+    height: 14rem;
 }
