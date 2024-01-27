@@ -1249,3 +1249,7 @@ body{
     resize: none;
     height: 100%;
 }
+
+.form__button{
+    padding: 1rem 3rem;
+}
