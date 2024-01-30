@@ -66,3 +66,76 @@
     }
 
 }
+
+
+@media (max-width:800px){
+
+    .reviews__container{
+        flex-direction: column;
+    }
+
+    .reviews__review{
+        margin-top: 6rem;
+        flex-basis: 100%;
+    }
+
+    .clients__container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .prices__container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .prices__box{
+        flex-basis: 100%;
+        margin: 0;
+        /* margin-bottom: 2rem; */
+        
+    }
+
+    .gallery__item{
+        flex-basis: 50%;
+    }
+
+    .articles__article{
+        flex-basis: 100%;
+    }
+
+}
+
+
+@media (max-width:585px){
+
+    .about__personal-info{
+        flex-direction: column;
+    }
+
+    
+
+    .personal-info__data{
+        flex-basis: 100%;
+        padding: 0;
+        margin-top: 2rem;
+    }
+
+    .services__container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    
+    .services__service{
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+
+    .extra__container{
+        flex-direction: column;
+        gap: 3rem;
+
+    }
+
+}
