@@ -19,4 +19,16 @@ document.addEventListener('DOMContentLoaded', (e)=>{
         menu_togge_icon.classList.toggle('menu-togge__icon--visible');
         menu_togge_icon.classList.toggle('layout__menu-toggle--color');
     })
+
+    window.addEventListener("resize", ()=>{
+        let size = document.body.clientWidth;
+
+        if (size <= 1060){
+            menu_togge_icon.classList.remove('menu-togge__icon--visible');
+            menu_togge_icon.classList.remove('layout__menu-toggle--color');
+            aside.classList.remove('layout__aside--visible');
+
+        }
+
+    });
 })
