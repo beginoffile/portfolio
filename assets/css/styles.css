@@ -24,7 +24,7 @@
 
 /* ESTILOS GENERALES */
 html{
-    font-size: 10px;
+    font-size: 62.5%; /*Equivalente a 10px*/
 
 }
 
@@ -238,7 +238,7 @@ body{
     display: block;
     position: absolute;
     top:0px;
-    right: -105px;
+    right: -10.5rem;
     min-width: 11rem;
     background-color: var(--color-transparent);
 
@@ -343,10 +343,10 @@ body{
 {
     content:"";
     position: absolute;
-    top:20px;
-    right: -25px;
-    width: 50px;
-    height: 30px;
+    top:2rem;
+    right: -2.5rem;
+    width: 5rem;
+    height: 3rem;
     background-image: -webkit-repeating-radial-gradient(center center, var(--color-secondary), var(--color-secondary) 1px, transparent 0px, transparent 100%);
     background-size: 6px 6px;
 }
@@ -432,13 +432,14 @@ body{
 .clients__title::after,
 .prices__title::after,
 .extra__title::after,
-.resume__subtitle::after{
+.resume__subtitle::after,
+.form-header__title::after{
     content:"";
     position: absolute;
-    top: 15px;
+    top: 1.5rem;
     right: 0;
-    width: 30px;
-    height: 20px;
+    width: 3rem;
+    height: 2rem;
     background-image: -webkit-repeating-radial-gradient(center center, var(--color-secondary), var(--color-secondary) 1px, transparent 0px, transparent 100%);
     background-size: 6px 6px;
 }
@@ -569,7 +570,7 @@ body{
 }
 
 .clients__image{
-    width: 140px;
+    width: 14rem;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
 }
@@ -772,7 +773,7 @@ body{
     position: absolute;
     top:0px;
     left: 30%;
-    bottom: -18px;
+    bottom: -1.8rem;
     width: 1px;
     background-color: var(--color-scrollbar); 
 }
